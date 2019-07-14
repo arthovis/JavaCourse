@@ -1,4 +1,4 @@
-package com.sda.Solid.single_responsability.After;
+package com.sda.solid.singleresponsability.After;
 
 public class HRPromotions {
     public boolean isPromotionDueThisYear(Employee employee){
