@@ -9,6 +9,6 @@ public class DemoLiskovSolution {
         DeviceWithEngine car = new Car();
         car.setEngine(engine);
         car.startEngine();
-
+        car.setYearOfFabrication("2019");
     }
 }
