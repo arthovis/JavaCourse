@@ -1,6 +1,7 @@
 package com.sda.grasp.controller;
 
 public class FrontController {
+    Dispatcher dispatcher = new Dispatcher();
     public void dispatchRequest(String request) {
         // TODO track request
 

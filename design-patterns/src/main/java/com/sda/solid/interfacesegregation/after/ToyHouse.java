@@ -15,11 +15,7 @@ public class ToyHouse implements Toy {
     }
 
     @Override
-    public void fly() {
-
-    }
-    @Override
-    public void move(){
-
+    public String toString() {
+        return "ToyHouse: Toy house- Price: " + price + " Color: " + color;
     }
 }
