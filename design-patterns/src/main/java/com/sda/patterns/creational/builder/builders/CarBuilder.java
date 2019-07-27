@@ -4,6 +4,7 @@ import com.sda.patterns.creational.builder.cars.Car;
 
 public class CarBuilder implements Builder {
     private Car car;
+
     @Override
     public void reset() {
         this.car = new Car();
@@ -19,7 +20,7 @@ public class CarBuilder implements Builder {
         this.car.setHasGPS(gps);
     }
 
-    public Car getResult(){
+    public Car getResult() {
         return this.car;
     }
 }
