@@ -10,10 +10,8 @@ public class DemoApplication {
         String os = "win";
         if (os == "win"){
             factory = new WinFactory();
-            factory.createButton();
         } else if (os == "mac"){
             factory = new MacFactory();
-            factory.createButton();
         }
     }
 }
