@@ -4,6 +4,7 @@ public class MacButton implements Button {
 
     @Override
     public void paint() {
-        System.out.println("Mac Button");
+        // Render a button in macOS style
+        System.out.println("paint mac button");
     }
 }

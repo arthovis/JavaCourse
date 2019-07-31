@@ -1,29 +1,32 @@
 package com.sda.patterns.behavioral.visitor.visitor;
 
-import com.sda.patterns.behavioral.visitor.shapes.*;
+import com.bucur.patterns.behavioral.visitor.shapes.*;
 
 public class XMLExportVisitor implements Visitor {
-    //mai trebuie adaugat la aceasta clasa
-    public String export(MyShape...args){
-        return null;
-    }
-    @Override
-    public String visitDot(Dot dot) {
-        return null;
+
+    // TODO: implement this
+    public String export(MyShape... args) {
+        return "";
     }
 
-    @Override
-    public String visitCircle(MyCircle circle) {
-        return null;
+    // TODO: implement this
+    public String visitDot(Dot d) {
+        return "";
     }
 
-    @Override
-    public String visitRectangle(MyRectangle rectangle) {
-        return null;
+    // TODO: implement this
+    public String visitCircle(Circle c) {
+        return "";
     }
 
-    @Override
-    public String visitCompoundGraphic(CompoundMyShape compoundShape) {
-        return null;
+    // TODO: implement this
+    public String visitRectangle(Rectangle r) {
+        return "";
     }
+
+    // TODO: implement this
+    public String visitCompoundGraphic(MyCompoundShape cs) {
+        return "";
+    }
+
 }

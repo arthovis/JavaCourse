@@ -1,20 +1,20 @@
 package com.sda.patterns.structural.decorator;
 
-public class DataSourceDecorator implements MyDataSource {
-    private MyDataSource wrapee;
+public class DataSourceDecorator implements DataSource {
 
+    private DataSource wrappee;
 
-    public DataSourceDecorator(MyDataSource wrapee) {
-        this.wrapee = wrapee;
+    DataSourceDecorator(DataSource source) {
+        this.wrappee = source;
     }
 
     @Override
-    public void writeData(String data){
-        wrapee.writeData(data);
+    public void writeData(String data) {
+        wrappee.writeData(data);
     }
 
     @Override
-    public String readData(){
-        return wrapee.readData();
+    public String readData() {
+        return wrappee.readData();
     }
 }
