@@ -1,9 +1,9 @@
 package com.sda.patterns.creational.abstract_factory.factory;
 
-import com.bucur.patterns.creational.abstract_factory.button.Button;
-import com.bucur.patterns.creational.abstract_factory.button.WinButton;
-import com.bucur.patterns.creational.abstract_factory.checkbox.Checkbox;
-import com.bucur.patterns.creational.abstract_factory.checkbox.WinCheckbox;
+import com.sda.patterns.creational.abstract_factory.button.Button;
+import com.sda.patterns.creational.abstract_factory.button.WinButton;
+import com.sda.patterns.creational.abstract_factory.checkbox.Checkbox;
+import com.sda.patterns.creational.abstract_factory.checkbox.WinCheckbox;
 
 public class WinFactory implements GUIFactory {
 

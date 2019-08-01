@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.state.states;
 
-import com.bucur.patterns.behavioral.state.ui.Player;
+import com.sda.patterns.behavioral.state.ui.Player;
 
 public abstract class State {
 

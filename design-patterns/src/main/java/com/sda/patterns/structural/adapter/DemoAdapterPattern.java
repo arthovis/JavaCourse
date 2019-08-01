@@ -1,9 +1,9 @@
 package com.sda.patterns.structural.adapter;
 
-import com.bucur.patterns.structural.adapter.adapters.SquarePegAdapter;
-import com.bucur.patterns.structural.adapter.round.RoundHole;
-import com.bucur.patterns.structural.adapter.round.RoundPeg;
-import com.bucur.patterns.structural.adapter.square.SquarePeg;
+import com.sda.patterns.structural.adapter.adapters.SquarePegAdapter;
+import com.sda.patterns.structural.adapter.round.RoundHole;
+import com.sda.patterns.structural.adapter.round.RoundPeg;
+import com.sda.patterns.structural.adapter.square.SquarePeg;
 
 public class DemoAdapterPattern {
 

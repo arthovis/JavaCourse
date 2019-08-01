@@ -1,7 +1,7 @@
 package com.sda.patterns.structural.proxy.downloader;
 
-import com.bucur.patterns.structural.proxy.media_library.ThirdPartyYoutubeLib;
-import com.bucur.patterns.structural.proxy.media_library.Video;
+import com.sda.patterns.structural.proxy.media_library.ThirdPartyYoutubeLib;
+import com.sda.patterns.structural.proxy.media_library.Video;
 
 import java.util.Map;
 

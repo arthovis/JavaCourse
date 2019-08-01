@@ -1,8 +1,8 @@
 package com.sda.patterns.structural.proxy;
 
-import com.bucur.patterns.structural.proxy.downloader.YoutubeDownloader;
-import com.bucur.patterns.structural.proxy.media_library.ThirdPartyYoutubeClass;
-import com.bucur.patterns.structural.proxy.proxy.YoutubeCacheProxy;
+import com.sda.patterns.structural.proxy.downloader.YoutubeDownloader;
+import com.sda.patterns.structural.proxy.media_library.ThirdPartyYoutubeClass;
+import com.sda.patterns.structural.proxy.proxy.YoutubeCacheProxy;
 
 public class DemoProxyPattern {
 

@@ -1,10 +1,10 @@
 package com.sda.patterns.creational.builder.manuals;
 
-import com.bucur.patterns.creational.builder.cars.Type;
-import com.bucur.patterns.creational.builder.components.Engine;
-import com.bucur.patterns.creational.builder.components.GPSNavigator;
-import com.bucur.patterns.creational.builder.components.Transmission;
-import com.bucur.patterns.creational.builder.components.TripComputer;
+import com.sda.patterns.creational.builder.cars.Type;
+import com.sda.patterns.creational.builder.components.Engine;
+import com.sda.patterns.creational.builder.components.GPSNavigator;
+import com.sda.patterns.creational.builder.components.Transmission;
+import com.sda.patterns.creational.builder.components.TripComputer;
 
 /**
  * Car manual is another product. Note that it does not have the same ancestor

@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.memento.history;
 
-import com.bucur.patterns.behavioral.memento.editor.Editor;
+import com.sda.patterns.behavioral.memento.editor.Editor;
 
 public class Memento {
 

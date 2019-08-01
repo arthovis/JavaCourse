@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.command;
 
-import com.bucur.patterns.behavioral.command.editor.Editor;
+import com.sda.patterns.behavioral.command.editor.Editor;
 
 public class DemoCommandPattern {
 

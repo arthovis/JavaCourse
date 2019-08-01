@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.strategy.order;
 
-import com.bucur.patterns.behavioral.strategy.strategies.PayStrategy;
+import com.sda.patterns.behavioral.strategy.strategies.PayStrategy;
 
 /**
  * Order class. Doesn't know the concrete payment method (strategy) user has

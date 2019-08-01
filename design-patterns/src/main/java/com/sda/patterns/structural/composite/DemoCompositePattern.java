@@ -1,9 +1,10 @@
 package com.sda.patterns.structural.composite;
 
-import com.bucur.patterns.structural.composite.editor.ImageEditor;
-import com.bucur.patterns.structural.composite.shapes.Circle;
-import com.bucur.patterns.structural.composite.shapes.CompoundShape;
-import com.bucur.patterns.structural.composite.shapes.Dot;
+import com.sda.patterns.structural.composite.editor.ImageEditor;
+import com.sda.patterns.structural.composite.shapes.Circle;
+import com.sda.patterns.structural.composite.shapes.CompoundShape;
+import com.sda.patterns.structural.composite.shapes.Dot;
+import com.sda.patterns.structural.composite.shapes.Rectangle;
 
 import java.awt.*;
 

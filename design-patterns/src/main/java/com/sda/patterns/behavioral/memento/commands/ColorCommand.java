@@ -1,6 +1,7 @@
 package com.sda.patterns.behavioral.memento.commands;
 
-import com.bucur.patterns.behavioral.memento.editor.Editor;
+import com.sda.patterns.behavioral.memento.editor.Editor;
+import com.sda.patterns.behavioral.memento.shapes.Shape;
 
 import java.awt.*;
 

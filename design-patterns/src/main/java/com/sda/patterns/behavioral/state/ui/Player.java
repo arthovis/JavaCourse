@@ -1,7 +1,7 @@
 package com.sda.patterns.behavioral.state.ui;
 
-import com.bucur.patterns.behavioral.state.states.ReadyState;
-import com.bucur.patterns.behavioral.state.states.State;
+import com.sda.patterns.behavioral.state.states.ReadyState;
+import com.sda.patterns.behavioral.state.states.State;
 
 import java.util.ArrayList;
 import java.util.List;

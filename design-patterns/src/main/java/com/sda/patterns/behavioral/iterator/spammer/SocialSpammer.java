@@ -1,7 +1,7 @@
 package com.sda.patterns.behavioral.iterator.spammer;
 
-import com.bucur.patterns.behavioral.iterator.iterators.ProfileIterator;
-import com.bucur.patterns.behavioral.iterator.social_networks.SocialNetwork;
+import com.sda.patterns.behavioral.iterator.iterators.ProfileIterator;
+import com.sda.patterns.behavioral.iterator.social_networks.SocialNetwork;
 
 public class SocialSpammer {
 
@@ -14,6 +14,11 @@ public class SocialSpammer {
 
     // TODO: implement this
     public void sendSpamToFriends(String profileEmail, String message) {
+        network.createFriendsIterator(profileEmail);
+        iterator.getNext();
+        if (iterator.hasNext()) {
+            sendMessage(profileEmail, message);
+        }
 
     }
 

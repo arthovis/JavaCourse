@@ -1,6 +1,8 @@
 package com.sda.patterns.behavioral.mediator.mediator;
 
-import com.bucur.patterns.behavioral.mediator.components.*;
+import com.sda.patterns.behavioral.mediator.components.Component;
+import com.sda.patterns.behavioral.mediator.components.List;
+import com.sda.patterns.behavioral.mediator.components.*;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;

@@ -1,9 +1,9 @@
 package com.sda.patterns.creational.abstract_factory.factory;
 
-import com.bucur.patterns.creational.abstract_factory.button.Button;
-import com.bucur.patterns.creational.abstract_factory.button.MacButton;
-import com.bucur.patterns.creational.abstract_factory.checkbox.Checkbox;
-import com.bucur.patterns.creational.abstract_factory.checkbox.MacCheckbox;
+import com.sda.patterns.creational.abstract_factory.button.Button;
+import com.sda.patterns.creational.abstract_factory.button.MacButton;
+import com.sda.patterns.creational.abstract_factory.checkbox.Checkbox;
+import com.sda.patterns.creational.abstract_factory.checkbox.MacCheckbox;
 
 public class MacFactory implements GUIFactory {
 

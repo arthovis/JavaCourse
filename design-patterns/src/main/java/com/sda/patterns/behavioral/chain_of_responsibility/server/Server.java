@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.chain_of_responsibility.server;
 
-import com.bucur.patterns.behavioral.chain_of_responsibility.middleware.Middleware;
+import com.sda.patterns.behavioral.chain_of_responsibility.middleware.Middleware;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,11 +1,11 @@
 package com.sda.patterns.creational.builder.builders;
 
-import com.bucur.patterns.creational.builder.cars.Type;
-import com.bucur.patterns.creational.builder.components.Engine;
-import com.bucur.patterns.creational.builder.components.GPSNavigator;
-import com.bucur.patterns.creational.builder.components.Transmission;
-import com.bucur.patterns.creational.builder.components.TripComputer;
-import com.bucur.patterns.creational.builder.manuals.Manual;
+import com.sda.patterns.creational.builder.cars.Type;
+import com.sda.patterns.creational.builder.components.Engine;
+import com.sda.patterns.creational.builder.components.GPSNavigator;
+import com.sda.patterns.creational.builder.components.Transmission;
+import com.sda.patterns.creational.builder.components.TripComputer;
+import com.sda.patterns.creational.builder.manuals.Manual;
 
 /**
  * Unlike other creational patterns, Builder can construct unrelated products,

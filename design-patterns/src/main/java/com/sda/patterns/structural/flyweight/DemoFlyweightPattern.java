@@ -1,6 +1,6 @@
 package com.sda.patterns.structural.flyweight;
 
-import com.bucur.patterns.structural.flyweight.forest.Forest;
+import com.sda.patterns.structural.flyweight.forest.Forest;
 
 import java.awt.*;
 

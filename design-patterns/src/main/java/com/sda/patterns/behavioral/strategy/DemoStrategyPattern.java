@@ -1,7 +1,7 @@
 package com.sda.patterns.behavioral.strategy;
 
-import com.bucur.patterns.behavioral.strategy.order.Order;
-import com.bucur.patterns.behavioral.strategy.strategies.PayStrategy;
+import com.sda.patterns.behavioral.strategy.order.Order;
+import com.sda.patterns.behavioral.strategy.strategies.PayStrategy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -44,7 +44,7 @@ public class DemoStrategyPattern {
             } while (continueChoice.equalsIgnoreCase("Y"));
 
             // TODO: allow the user to select a payment method and apply the correct strategy
-
+            System.out.println("Insert your payment method: ");
         }
     }
 }

@@ -1,6 +1,6 @@
 package com.sda.patterns.creational.builder.components;
 
-import com.bucur.patterns.creational.builder.cars.Car;
+import com.sda.patterns.creational.builder.cars.Car;
 
 public class TripComputer {
 

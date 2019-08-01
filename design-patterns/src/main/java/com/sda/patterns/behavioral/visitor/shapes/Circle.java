@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.visitor.shapes;
 
-import com.bucur.patterns.behavioral.visitor.visitor.Visitor;
+import com.sda.patterns.behavioral.visitor.visitor.Visitor;
 
 public class Circle extends Dot {
 

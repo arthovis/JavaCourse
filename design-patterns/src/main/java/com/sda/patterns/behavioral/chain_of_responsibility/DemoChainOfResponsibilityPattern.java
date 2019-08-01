@@ -1,10 +1,10 @@
 package com.sda.patterns.behavioral.chain_of_responsibility;
 
-import com.bucur.patterns.behavioral.chain_of_responsibility.middleware.Middleware;
-import com.bucur.patterns.behavioral.chain_of_responsibility.middleware.RoleCheckMiddleware;
-import com.bucur.patterns.behavioral.chain_of_responsibility.middleware.ThrottlingMiddleware;
-import com.bucur.patterns.behavioral.chain_of_responsibility.middleware.UserExistsMiddleware;
-import com.bucur.patterns.behavioral.chain_of_responsibility.server.Server;
+import com.sda.patterns.behavioral.chain_of_responsibility.middleware.Middleware;
+import com.sda.patterns.behavioral.chain_of_responsibility.middleware.RoleCheckMiddleware;
+import com.sda.patterns.behavioral.chain_of_responsibility.middleware.ThrottlingMiddleware;
+import com.sda.patterns.behavioral.chain_of_responsibility.middleware.UserExistsMiddleware;
+import com.sda.patterns.behavioral.chain_of_responsibility.server.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;

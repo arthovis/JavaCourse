@@ -1,11 +1,11 @@
 package com.sda.patterns.creational.builder.director;
 
-import com.bucur.patterns.creational.builder.builders.Builder;
-import com.bucur.patterns.creational.builder.cars.Type;
-import com.bucur.patterns.creational.builder.components.Engine;
-import com.bucur.patterns.creational.builder.components.GPSNavigator;
-import com.bucur.patterns.creational.builder.components.Transmission;
-import com.bucur.patterns.creational.builder.components.TripComputer;
+import com.sda.patterns.creational.builder.builders.Builder;
+import com.sda.patterns.creational.builder.cars.Type;
+import com.sda.patterns.creational.builder.components.Engine;
+import com.sda.patterns.creational.builder.components.GPSNavigator;
+import com.sda.patterns.creational.builder.components.Transmission;
+import com.sda.patterns.creational.builder.components.TripComputer;
 
 /**
  * Director defines the order of building steps. It works with a builder object

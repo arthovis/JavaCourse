@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.command.editor;
 
-import com.bucur.patterns.behavioral.command.commands.*;
+import com.sda.patterns.behavioral.command.commands.*;
 
 import javax.swing.*;
 import java.awt.*;

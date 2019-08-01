@@ -1,7 +1,8 @@
 package com.sda.patterns.behavioral.memento.editor;
 
-import com.bucur.patterns.behavioral.memento.commands.ColorCommand;
-import com.bucur.patterns.behavioral.memento.commands.MoveCommand;
+import com.sda.patterns.behavioral.memento.commands.ColorCommand;
+import com.sda.patterns.behavioral.memento.commands.MoveCommand;
+import com.sda.patterns.behavioral.memento.shapes.Shape;
 
 import javax.swing.*;
 import javax.swing.border.Border;

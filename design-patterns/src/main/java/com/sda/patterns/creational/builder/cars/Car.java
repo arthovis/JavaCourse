@@ -1,9 +1,9 @@
 package com.sda.patterns.creational.builder.cars;
 
-import com.bucur.patterns.creational.builder.components.Engine;
-import com.bucur.patterns.creational.builder.components.GPSNavigator;
-import com.bucur.patterns.creational.builder.components.Transmission;
-import com.bucur.patterns.creational.builder.components.TripComputer;
+import com.sda.patterns.creational.builder.components.Engine;
+import com.sda.patterns.creational.builder.components.GPSNavigator;
+import com.sda.patterns.creational.builder.components.Transmission;
+import com.sda.patterns.creational.builder.components.TripComputer;
 
 public class Car {
 

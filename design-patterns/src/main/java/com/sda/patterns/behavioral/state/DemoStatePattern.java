@@ -1,7 +1,7 @@
 package com.sda.patterns.behavioral.state;
 
-import com.bucur.patterns.behavioral.state.ui.Player;
-import com.bucur.patterns.behavioral.state.ui.UI;
+import com.sda.patterns.behavioral.state.ui.Player;
+import com.sda.patterns.behavioral.state.ui.UI;
 
 public class DemoStatePattern {
 

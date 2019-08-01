@@ -1,7 +1,7 @@
 package com.sda.patterns.creational.factory.factory;
 
-import com.bucur.patterns.creational.factory.transports.Transport;
-import com.bucur.patterns.creational.factory.transports.Truck;
+import com.sda.patterns.creational.factory.transports.Transport;
+import com.sda.patterns.creational.factory.transports.Truck;
 
 public class RoadLogistics extends Logistics {
 

@@ -1,9 +1,10 @@
 package com.sda.patterns.behavioral.memento;
 
-import com.bucur.patterns.behavioral.memento.editor.Editor;
-import com.bucur.patterns.behavioral.memento.shapes.Circle;
-import com.bucur.patterns.behavioral.memento.shapes.CompoundShape;
-import com.bucur.patterns.behavioral.memento.shapes.Dot;
+import com.sda.patterns.behavioral.memento.editor.Editor;
+import com.sda.patterns.behavioral.memento.shapes.Circle;
+import com.sda.patterns.behavioral.memento.shapes.CompoundShape;
+import com.sda.patterns.behavioral.memento.shapes.Dot;
+import com.sda.patterns.behavioral.memento.shapes.Rectangle;
 
 import java.awt.*;
 

@@ -1,10 +1,10 @@
 package com.sda.patterns.structural.facade;
 
-import com.bucur.patterns.structural.facade.carsystem.CatalyticConverter;
-import com.bucur.patterns.structural.facade.carsystem.Starter;
-import com.bucur.patterns.structural.facade.carsystem.airflow.AirFlowController;
-import com.bucur.patterns.structural.facade.carsystem.cooling.CoolingController;
-import com.bucur.patterns.structural.facade.carsystem.fuel.FuelInjector;
+import com.sda.patterns.structural.facade.carsystem.CatalyticConverter;
+import com.sda.patterns.structural.facade.carsystem.Starter;
+import com.sda.patterns.structural.facade.carsystem.airflow.AirFlowController;
+import com.sda.patterns.structural.facade.carsystem.cooling.CoolingController;
+import com.sda.patterns.structural.facade.carsystem.fuel.FuelInjector;
 
 // TODO: 6. add client code
 public class CarEngineFacade {

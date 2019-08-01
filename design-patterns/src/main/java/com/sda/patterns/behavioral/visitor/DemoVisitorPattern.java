@@ -1,7 +1,7 @@
 package com.sda.patterns.behavioral.visitor;
 
-import com.bucur.patterns.behavioral.visitor.shapes.MyShape;
-import com.bucur.patterns.behavioral.visitor.visitor.XMLExportVisitor;
+import com.sda.patterns.behavioral.visitor.shapes.MyShape;
+import com.sda.patterns.behavioral.visitor.visitor.XMLExportVisitor;
 
 public class DemoVisitorPattern {
 

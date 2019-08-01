@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.memento.history;
 
-import com.bucur.patterns.behavioral.memento.commands.Command;
+import com.sda.patterns.behavioral.memento.commands.Command;
 
 import java.util.ArrayList;
 import java.util.List;

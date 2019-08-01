@@ -1,8 +1,8 @@
 package com.sda.patterns.behavioral.mediator;
 
-import com.bucur.patterns.behavioral.mediator.components.*;
-import com.bucur.patterns.behavioral.mediator.mediator.Editor;
-import com.bucur.patterns.behavioral.mediator.mediator.Mediator;
+import com.sda.patterns.behavioral.mediator.components.*;
+import com.sda.patterns.behavioral.mediator.mediator.Editor;
+import com.sda.patterns.behavioral.mediator.mediator.Mediator;
 
 import javax.swing.*;
 

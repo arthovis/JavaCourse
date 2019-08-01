@@ -9,6 +9,7 @@ public class PersonRepository {
 
     public static List<Person> people = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
+    private Utils utils = new Utils();
 
     public void addPerson() {
         while (true) {
@@ -22,7 +23,7 @@ public class PersonRepository {
             }
 
             // get random difficulty between 1 and 5
-            int randomDifficulty = getRandomNumberInRange(1, 5);
+            int randomDifficulty = utils.getRandomNumberInRange(1, 5);
 
             // create person
             Person person = new Person(name, randomDifficulty);
@@ -55,10 +56,5 @@ public class PersonRepository {
         people.remove(nextPerson);
     }
 
-    // TODO move this to utils class
-    private int getRandomNumberInRange(int min, int max) {
-        Random random = new Random();
-        return random.nextInt((max - min) + 1 + min);
-    }
 
 }

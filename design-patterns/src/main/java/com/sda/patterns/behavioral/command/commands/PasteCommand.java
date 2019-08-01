@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.command.commands;
 
-import com.bucur.patterns.behavioral.command.editor.Editor;
+import com.sda.patterns.behavioral.command.editor.Editor;
 
 public class PasteCommand extends Command {
 

@@ -1,17 +1,16 @@
 package com.sda.patterns.behavioral.memento.editor;
 
-import com.bucur.patterns.behavioral.memento.commands.Command;
-import com.bucur.patterns.behavioral.memento.history.History;
-import com.bucur.patterns.behavioral.memento.history.Memento;
-import com.bucur.patterns.behavioral.memento.shapes.CompoundShape;
-import com.bucur.patterns.behavioral.memento.shapes.Shape;
+import com.sda.patterns.behavioral.memento.commands.Command;
+import com.sda.patterns.behavioral.memento.history.History;
+import com.sda.patterns.behavioral.memento.history.Memento;
+import com.sda.patterns.behavioral.memento.shapes.CompoundShape;
+import com.sda.patterns.behavioral.memento.shapes.Shape;
 
 import javax.swing.*;
 import java.io.*;
 import java.util.Base64;
 
 public class Editor extends JComponent {
-
     private Canvas canvas;
     private CompoundShape allShapes = new CompoundShape();
     private History history;

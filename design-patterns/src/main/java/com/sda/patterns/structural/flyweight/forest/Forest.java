@@ -1,8 +1,8 @@
 package com.sda.patterns.structural.flyweight.forest;
 
-import com.bucur.patterns.structural.flyweight.trees.Tree;
-import com.bucur.patterns.structural.flyweight.trees.TreeFactory;
-import com.bucur.patterns.structural.flyweight.trees.TreeType;
+import com.sda.patterns.structural.flyweight.trees.Tree;
+import com.sda.patterns.structural.flyweight.trees.TreeFactory;
+import com.sda.patterns.structural.flyweight.trees.TreeType;
 
 import javax.swing.*;
 import java.awt.*;

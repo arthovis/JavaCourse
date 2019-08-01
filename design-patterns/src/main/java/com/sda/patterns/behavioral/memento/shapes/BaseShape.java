@@ -1,6 +1,5 @@
 package com.sda.patterns.behavioral.memento.shapes;
 
-import java.awt.Shape;
 import java.awt.*;
 
 public abstract class BaseShape implements Shape {

@@ -92,6 +92,13 @@
             <version>2.28.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.levigo/gwt-awt -->
+        <dependency>
+            <groupId>com.levigo</groupId>
+            <artifactId>gwt-awt</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
 
     </dependencies>
 

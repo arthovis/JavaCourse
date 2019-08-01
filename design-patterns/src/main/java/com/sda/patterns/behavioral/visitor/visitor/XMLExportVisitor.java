@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.visitor.visitor;
 
-import com.bucur.patterns.behavioral.visitor.shapes.*;
+import com.sda.patterns.behavioral.visitor.shapes.*;
 
 public class XMLExportVisitor implements Visitor {
 

@@ -1,5 +1,7 @@
 package com.sda.io.ex1;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -36,8 +38,26 @@ public class DemoEx1 {
         return count;
     }
 
-    private static long countWordsJava7(Path path) {
-        // TODO: implement using java 7
-        return 0;
+    private static long countWordsJava7(Path path) throws IOException {
+
+        FileReader fileReader = new FileReader("C:\\Users\\andre\\IdeaProjects\\JavaCourse\\java-advanced\\src\\main\\resources\\simple-file.txt");
+        long count = 0;
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("C:\\Users\\andre\\IdeaProjects\\JavaCourse\\java-advanced\\src\\main\\resources\\simple-file.txt"))) {
+
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+
+                String[] a = line.split(" ");
+                for (int i = 0; i < a.length; i++) {
+                    if (a[i].length() > 0) {
+                        count++;
+                    }
+                    line = bufferedReader.readLine();
+                    System.out.println("Total number of words: " + count);
+                }
+
+            }
+        }
+        return count;
     }
 }

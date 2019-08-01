@@ -1,6 +1,6 @@
 package com.sda.patterns.creational.factory.factory;
 
-import com.bucur.patterns.creational.factory.transports.Transport;
+import com.sda.patterns.creational.factory.transports.Transport;
 
 public abstract class Logistics {
 

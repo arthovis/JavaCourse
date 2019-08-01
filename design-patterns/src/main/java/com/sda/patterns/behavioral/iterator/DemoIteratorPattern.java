@@ -1,6 +1,7 @@
 package com.sda.patterns.behavioral.iterator;
 
-import com.bucur.patterns.behavioral.iterator.profile.Profile;
+
+import com.sda.patterns.behavioral.iterator.profile.Profile;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,9 @@ public class DemoIteratorPattern {
         String choice = scanner.nextLine();
 
         // TODO: implement a spmammer that sends messages to both networks depending on choice
+        List<Profile> data = createTestProfiles();
+        if (choice.equals("1. Facebook")) {
+        }
     }
 
     public static List<Profile> createTestProfiles() {

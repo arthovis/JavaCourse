@@ -1,7 +1,7 @@
 package com.sda.patterns.structural.composite.editor;
 
-import com.bucur.patterns.structural.composite.shapes.CompoundShape;
-import com.bucur.patterns.structural.composite.shapes.MyShape;
+import com.sda.patterns.structural.composite.shapes.CompoundShape;
+import com.sda.patterns.structural.composite.shapes.MyShape;
 
 import javax.swing.*;
 import javax.swing.border.Border;

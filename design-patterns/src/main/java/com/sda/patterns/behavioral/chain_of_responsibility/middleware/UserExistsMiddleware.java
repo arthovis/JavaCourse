@@ -1,6 +1,6 @@
 package com.sda.patterns.behavioral.chain_of_responsibility.middleware;
 
-import com.bucur.patterns.behavioral.chain_of_responsibility.server.Server;
+import com.sda.patterns.behavioral.chain_of_responsibility.server.Server;
 
 /**
  * ConcreteHandler. Checks whether a user with the given credentials exists.
