@@ -9,7 +9,7 @@ public class DemoPrototypePattern {
     public static void main(String[] args) {
 
         // add a circle, a clone of that circle and a rectangle to a list of shapes and print it
-        List<Shape> shapes = new ArrayList();
+        List<Shape> shapes = new ArrayList<>();
         Circle circle = new Circle();
         Rectangle rectangle = new Rectangle();
         shapes.add(circle);

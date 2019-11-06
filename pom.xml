@@ -13,6 +13,7 @@
         <module>java-advanced</module>
         <module>java-advanced-code</module>
         <module>design-patterns</module>
+        <module>java-fx</module>
     </modules>
 
 </project>

@@ -15,8 +15,8 @@ public class DemoAbstractFactory {
         System.out.println("Insert the OS (WIN/MAC): ");
         String os = scanner.nextLine();
         if (os.equals("WIN")) {
-            WinFactory winFactoryfactory = new WinFactory();
-            Application application = new Application(winFactoryfactory);
+            WinFactory winFactory = new WinFactory();
+            Application application = new Application(winFactory);
             application.createUI();
             application.paint();
         } else if (os.equals("MAC")) {
